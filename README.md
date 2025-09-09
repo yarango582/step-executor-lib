@@ -187,6 +187,39 @@ import 'reflect-metadata';
 - **Automatización**: Scripts complejos con dependencias
 - **APIs**: Procesamiento de solicitudes multi-paso
 
+¡Listo para comenzar! 🚀
+
+## 🤝 Contribuir
+
+¡Las contribuciones son bienvenidas! Nos encantaría que formes parte de la comunidad.
+
+### Formas de Contribuir
+- 🐛 [Reportar bugs](../../issues/new?template=bug_report.md)
+- 🚀 [Sugerir nuevas funcionalidades](../../issues/new?template=feature_request.md)
+- 📚 Mejorar documentación
+- 🧪 Añadir ejemplos y casos de uso
+- 💻 Contribuir código
+
+### Guías de Contribución
+- 📖 [Guía de Contribución (Español)](./CONTRIBUTING_ES.md)
+- 📖 [Contributing Guide (English)](./CONTRIBUTING.md)
+
+### Desarrollo Local
+```bash
+# Clonar el repositorio
+git clone https://github.com/TU_USUARIO/step-executor-lib.git
+cd step-executor-lib
+
+# Instalar dependencias
+npm install
+
+# Ejecutar pruebas
+npm test
+
+# Ejecutar ejemplos
+npm run examples all
+```
+
 ## Prerequisites
 
 This project requires Node.js version 18 or higher. We recommend using [nvm](https://github.com/nvm-sh/nvm) to manage Node.js versions.
@@ -257,18 +290,29 @@ executor.setStrategy(new ParallelStrategy());
 executor.execute(); // Executes registered steps in parallel
 ```
 
-## Testing
+## 🧪 Testing
 
-The library includes unit and integration tests to ensure functionality. To run the tests, use:
+La librería incluye pruebas unitarias e integración para asegurar funcionalidad:
 
 ```bash
+# Ejecutar todas las pruebas
 npm test
+
+# Ejecutar con cobertura
+npm run test:coverage
+
+# Ejecutar ejemplos
+npm run examples all
 ```
 
-## Contributing
+## 📄 License
 
-Contributions are welcome! Please submit a pull request or open an issue for any enhancements or bug fixes.
+Este proyecto está licenciado bajo la Licencia MIT. Ver el archivo [LICENSE](./LICENSE) para detalles.
 
-## License
+## 🙏 Agradecimientos
 
-This project is licensed under the MIT License. See the LICENSE file for details.
+Gracias a todos los [contribuidores](../../contributors) que han hecho posible este proyecto.
+
+---
+
+**¿Tienes preguntas?** Abre un [issue](../../issues) o consulta nuestras [discusiones](../../discussions).

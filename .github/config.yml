@@ -1,0 +1,40 @@
+# Configuration for welcome bot - https://github.com/apps/welcome
+
+# Configuration for new issue welcome
+# Comment to be posted to on first time issues
+newIssueWelcomeComment: >
+  ¡Gracias por abrir tu primer issue en Step Executor Library! 🎉
+  
+  Un maintainer revisará tu issue pronto. Mientras tanto:
+  
+  - ✅ Asegúrate de haber seguido la plantilla de issue
+  - 📚 Revisa la [documentación](../README.md) y [guía de contribución](../CONTRIBUTING.md)
+  - 🔍 Verifica que no hay issues similares ya abiertos
+  
+  ¡Apreciamos tu contribución a la comunidad! 🚀
+
+# Configuration for new pull request welcome
+# Comment to be posted to on PRs from first time contributors
+newPRWelcomeComment: >
+  ¡Gracias por tu primer Pull Request en Step Executor Library! 🎉
+  
+  Un maintainer revisará tu PR pronto. Mientras tanto:
+  
+  - ✅ Asegúrate de que todas las pruebas pasan
+  - 📝 Verifica que has seguido la [guía de contribución](../CONTRIBUTING.md)
+  - 🔍 Confirma que tu código sigue nuestros estándares
+  
+  ¡Esperamos trabajar contigo! 🤝
+
+# Configuration for first pull request merge comment
+# Comment to be posted to on pull requests merged by a first time contributor
+firstPRMergeComment: >
+  ¡Felicidades por tu primer Pull Request merged! 🎉🎉
+  
+  ¡Ahora eres oficialmente un contribuidor de Step Executor Library! 
+  
+  - 🏆 Tu contribución será reconocida en nuestro próximo release
+  - 📫 Considera unirte a nuestras discusiones para futuras colaboraciones
+  - 🌟 No olvides dar una estrella al repo si te gusta el proyecto
+  
+  ¡Gracias por hacer Step Executor Library mejor! 🚀

@@ -16,16 +16,29 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/yourusername/step-executor-lib.git"
+    "url": "https://github.com/yarango582/step-executor-lib"
   },
+  "bugs": {
+    "url": "https://github.com/yarango582/step-executor-lib/issues"
+  },
+  "homepage": "https://github.com/yarango582/step-executor-lib#readme",
   "keywords": [
     "step",
     "executor",
     "parallel",
     "sequential",
-    "library"
+    "library",
+    "workflow",
+    "pipeline",
+    "automation",
+    "decorators",
+    "typescript",
+    "async",
+    "flow-builder",
+    "microservices",
+    "ci-cd"
   ],
-  "author": "Your Name",
+  "author": "Yeison Arango",
   "license": "MIT",
   "engines": {
     "node": ">=18.0.0",
